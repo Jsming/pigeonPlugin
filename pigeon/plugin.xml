@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<!-- Main plugin class -->
+	<class>com.pigeon.www.server.PigeonPluginInfo</class>
+	<name>Pigeon</name>
+	<description>Pigeon Plugin</description>
+	<author>Jsming.</author>
+	<version>0.0.2</version>
+	<date>2014/07/05</date>
+	<minServerVersion>3.8.2</minServerVersion>
+
+	<!-- Admin console entries -->
+	<adminconsole>
+		<tab id="tab-server">
+			<sidebar id="sidebar-server-settings">
+				<item id="pigeonInfo" name="Pigeon Settings" url="pl-main.jsp"
+					description="Manage Pigeon Settings" />
+			</sidebar>
+		</tab>
+	</adminconsole>
+</plugin>

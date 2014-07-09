@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <!-- Servlets Star-->
+    
+    <!-- 注册用户 -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.pigeon.www.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <!-- Servlets Star-->
+    
+    <!-- Servlet mappings  注意URL不能包含 Servlet关键词 -->
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/userRegister</url-pattern>
+    </servlet-mapping>
+</web-app>
